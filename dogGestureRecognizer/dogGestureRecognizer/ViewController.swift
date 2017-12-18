@@ -9,7 +9,13 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    
+    @IBAction func aaa(_ sender: UIPanGestureRecognizer) {
+        let pagu = sender.view!
+        pagu.center = sender.location(in: self.view)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
