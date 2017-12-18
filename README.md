@@ -1,0 +1,2 @@
+# dogGestureRecognizer
+PanGestureRecognizerの練習
